@@ -40,3 +40,6 @@ The Adapter Design Pattern allows incompatible interfaces to work together. In t
 1. **Instantiate Adapters**: Create instances of `MP3Adapter` or `WaveAdapter`, passing an instance of `MP3Player` or `WavePlayer` to the constructors, respectively.
 2. **Play Media**: Use the `Play` method of the adapter to play MP3 or WAV files, depending on the type specified.
 3. **Handle Unsupported Formats**: If an unsupported format is passed, the adapter will return a message indicating that the format is invalid.annot be played.
+
+## Module And Class Diagram
+![ModuleAndClassDiagram](./ModuleAndClassDiagram.jpeg)
